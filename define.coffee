@@ -81,3 +81,6 @@ module.exports =
 
   Enumerable: (options = {}) ->
     with_defaults options, enumerable: true
+    
+  NonEnumerable: (options = {}) ->
+    with_default options, enumerable: false
